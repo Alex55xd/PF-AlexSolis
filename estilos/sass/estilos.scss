@@ -1,0 +1,39 @@
+.logo {
+    width: 80px;
+    border-radius: 50%;
+}
+
+.colornav {
+    background-color: rgba(247, 186, 206, 0.712);
+}
+
+.fondo {
+    background-image: url("/imagenes/fondo.png");
+}
+
+footer{
+    h1{
+        margin-left: 15px;
+    }
+    h2{
+        color: rgb(250, 126, 147);
+    }
+    p {
+        font-size: 18px;
+    }
+    img{
+        transition: all 1s;
+        position: relative;
+    }
+    img:hover{
+        scale: 1.1;
+        z-index: 2;
+    }
+}
+
+body{
+    p{
+        font-style: italic;
+    }
+}
+
