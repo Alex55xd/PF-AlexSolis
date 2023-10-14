@@ -42,12 +42,17 @@ footer img:hover {
 }
 
 /* line 35, ../PreEntrega3Solis/estilos/sass/estilos.scss */
+#checkbox input:checked {
+  accent-color: #ec647b;
+}
+
+/* line 42, ../PreEntrega3Solis/estilos/sass/estilos.scss */
 body p {
   font-style: italic;
 }
 
 @media (max-width: 950px) {
-  /* line 40, ../PreEntrega3Solis/estilos/sass/estilos.scss */
+  /* line 47, ../PreEntrega3Solis/estilos/sass/estilos.scss */
   body section div iframe {
     width: 300px;
     height: 300px;
@@ -55,7 +60,7 @@ body p {
 }
 
 @media (max-width: 400px) {
-  /* line 40, ../PreEntrega3Solis/estilos/sass/estilos.scss */
+  /* line 47, ../PreEntrega3Solis/estilos/sass/estilos.scss */
   body section div iframe {
     width: 200px;
     height: 200px;
